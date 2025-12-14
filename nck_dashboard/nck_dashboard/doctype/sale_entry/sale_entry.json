@@ -1,0 +1,318 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{date}-{shop}",
+ "creation": "2025-12-13 20:37:50.721226",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_tab",
+  "date",
+  "column_break_ayes",
+  "shop",
+  "column_break_mjgu",
+  "marg_opening",
+  "section_break_wmdk",
+  "fivehundred",
+  "column_break_krkw",
+  "twohundred",
+  "column_break_tifz",
+  "hundred",
+  "column_break_stnv",
+  "fifty",
+  "column_break_eltn",
+  "twenty",
+  "column_break_oetd",
+  "ten",
+  "column_break_xmud",
+  "five",
+  "column_break_aelx",
+  "two",
+  "column_break_zibd",
+  "one",
+  "column_break_vqve",
+  "total",
+  "sale_section",
+  "sale_entry",
+  "section_break_jzbb",
+  "payment",
+  "column_break_bmdv",
+  "receipt",
+  "section_break_twdx",
+  "upi_total",
+  "column_break_gotw",
+  "cash_total",
+  "column_break_ljpf",
+  "credit",
+  "column_break_zejk",
+  "card",
+  "column_break_mfnl",
+  "discount",
+  "section_break_qazh",
+  "box_cash",
+  "mid_day_closing_tab",
+  "fetch",
+  "close"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_mjgu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "marg_opening",
+   "fieldtype": "Int",
+   "label": "Marg Opening"
+  },
+  {
+   "fieldname": "sale_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sale_entry",
+   "fieldtype": "Table",
+   "label": "Sale Entry",
+   "options": "Daily Sales"
+  },
+  {
+   "fieldname": "section_break_twdx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "upi_total",
+   "fieldtype": "Int",
+   "label": "UPI Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_gotw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cash_total",
+   "fieldtype": "Int",
+   "label": "Cash Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ljpf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "Int",
+   "label": "Credit",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_zejk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "card",
+   "fieldtype": "Int",
+   "label": "Card",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_mfnl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Int",
+   "label": "Discount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_jzbb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ayes",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shop",
+   "fieldtype": "Select",
+   "label": "Shop",
+   "options": "NCK\nCTR\nSS1"
+  },
+  {
+   "fieldname": "section_break_wmdk",
+   "fieldtype": "Section Break",
+   "label": "Opening"
+  },
+  {
+   "fieldname": "column_break_krkw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_tifz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_stnv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_eltn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_oetd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xmud",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_aelx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_zibd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fivehundred",
+   "fieldtype": "Int",
+   "label": "500"
+  },
+  {
+   "fieldname": "twohundred",
+   "fieldtype": "Int",
+   "label": "200"
+  },
+  {
+   "fieldname": "hundred",
+   "fieldtype": "Int",
+   "label": "100"
+  },
+  {
+   "fieldname": "fifty",
+   "fieldtype": "Int",
+   "label": "50"
+  },
+  {
+   "fieldname": "twenty",
+   "fieldtype": "Int",
+   "label": "20"
+  },
+  {
+   "fieldname": "ten",
+   "fieldtype": "Int",
+   "label": "10"
+  },
+  {
+   "fieldname": "five",
+   "fieldtype": "Int",
+   "label": "5"
+  },
+  {
+   "fieldname": "two",
+   "fieldtype": "Int",
+   "label": "2"
+  },
+  {
+   "fieldname": "one",
+   "fieldtype": "Int",
+   "label": "1"
+  },
+  {
+   "fieldname": "column_break_vqve",
+   "fieldtype": "Column Break",
+   "print_width": "50",
+   "width": "50"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total",
+   "length": 10,
+   "width": "100"
+  },
+  {
+   "fieldname": "payment",
+   "fieldtype": "Table",
+   "label": "Payment",
+   "options": "Nck Payment and Receipt"
+  },
+  {
+   "fieldname": "column_break_bmdv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "receipt",
+   "fieldtype": "Table",
+   "label": "Receipt",
+   "options": "Nck Payment and Receipt"
+  },
+  {
+   "fieldname": "sales_tab",
+   "fieldtype": "Tab Break",
+   "label": "Sales"
+  },
+  {
+   "fieldname": "mid_day_closing_tab",
+   "fieldtype": "Tab Break",
+   "label": "Mid Day Closing"
+  },
+  {
+   "fieldname": "fetch",
+   "fieldtype": "Button",
+   "label": "Fetch"
+  },
+  {
+   "fieldname": "section_break_qazh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "box_cash",
+   "fieldtype": "Int",
+   "label": "Box Cash",
+   "read_only": 1
+  },
+  {
+   "fieldname": "close",
+   "fieldtype": "Table",
+   "label": "Close",
+   "options": "Denomination"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-14 12:03:53.051202",
+ "modified_by": "Administrator",
+ "module": "Nck Dashboard",
+ "name": "Sale_Entry",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

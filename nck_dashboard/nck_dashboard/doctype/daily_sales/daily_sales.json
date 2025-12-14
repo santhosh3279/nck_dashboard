@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-13 21:03:57.711591",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sale_section",
+  "bill_no",
+  "wholesale",
+  "retail",
+  "cash",
+  "upi",
+  "credit",
+  "card",
+  "discount",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "bill_no",
+   "fieldtype": "Data",
+   "label": "Bill No"
+  },
+  {
+   "fieldname": "wholesale",
+   "fieldtype": "Int",
+   "label": "Wholesale"
+  },
+  {
+   "fieldname": "retail",
+   "fieldtype": "Int",
+   "label": "Retail"
+  },
+  {
+   "fieldname": "cash",
+   "fieldtype": "Int",
+   "label": "Cash"
+  },
+  {
+   "fieldname": "upi",
+   "fieldtype": "Int",
+   "label": "UPI"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "Int",
+   "label": "Credit"
+  },
+  {
+   "fieldname": "card",
+   "fieldtype": "Int",
+   "label": "Card"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Int",
+   "label": "Disc",
+   "read_only": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "sale_section",
+   "fieldtype": "Section Break",
+   "label": "Sale"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-14 11:48:39.781778",
+ "modified_by": "Administrator",
+ "module": "Nck Dashboard",
+ "name": "Daily Sales",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

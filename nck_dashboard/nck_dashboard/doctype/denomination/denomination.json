@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-13 20:55:57.640790",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "five_hundred",
+  "two_hundred",
+  "hundred",
+  "fifty",
+  "twenty",
+  "ten",
+  "five",
+  "two",
+  "one",
+  "total",
+  "box_cash",
+  "date_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "five_hundred",
+   "fieldtype": "Int",
+   "label": "500"
+  },
+  {
+   "fieldname": "two_hundred",
+   "fieldtype": "Int",
+   "label": "200"
+  },
+  {
+   "fieldname": "hundred",
+   "fieldtype": "Int",
+   "label": "100"
+  },
+  {
+   "fieldname": "fifty",
+   "fieldtype": "Int",
+   "label": "50"
+  },
+  {
+   "fieldname": "twenty",
+   "fieldtype": "Int",
+   "label": "20"
+  },
+  {
+   "fieldname": "ten",
+   "fieldtype": "Int",
+   "label": "10"
+  },
+  {
+   "fieldname": "five",
+   "fieldtype": "Int",
+   "label": "5"
+  },
+  {
+   "fieldname": "two",
+   "fieldtype": "Int",
+   "label": "2"
+  },
+  {
+   "fieldname": "one",
+   "fieldtype": "Int",
+   "label": "1"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total"
+  },
+  {
+   "fieldname": "box_cash",
+   "fieldtype": "Int",
+   "label": "Box Cash"
+  },
+  {
+   "fieldname": "date_time",
+   "fieldtype": "Datetime",
+   "label": "Date Time"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-14 11:58:06.115938",
+ "modified_by": "Administrator",
+ "module": "Nck Dashboard",
+ "name": "Denomination",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

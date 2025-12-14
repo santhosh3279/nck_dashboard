@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-13 17:26:17.289365",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_iift",
+  "type",
+  "section_break_ulfn",
+  "fivehundred",
+  "twohundred",
+  "hundred",
+  "fifty",
+  "twenty",
+  "ten",
+  "five",
+  "two",
+  "one",
+  "column_break_cgte",
+  "total",
+  "marg_opening",
+  "short_or_excess"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_iift",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Opening\nClosing\nDay End"
+  },
+  {
+   "fieldname": "section_break_ulfn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_cgte",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "fivehundred",
+   "fieldtype": "Int",
+   "label": "500"
+  },
+  {
+   "fieldname": "twohundred",
+   "fieldtype": "Int",
+   "label": "200"
+  },
+  {
+   "fieldname": "hundred",
+   "fieldtype": "Int",
+   "label": "100"
+  },
+  {
+   "fieldname": "fifty",
+   "fieldtype": "Int",
+   "label": "50"
+  },
+  {
+   "fieldname": "twenty",
+   "fieldtype": "Int",
+   "label": "20"
+  },
+  {
+   "fieldname": "ten",
+   "fieldtype": "Int",
+   "label": "10"
+  },
+  {
+   "fieldname": "five",
+   "fieldtype": "Int",
+   "label": "5"
+  },
+  {
+   "fieldname": "two",
+   "fieldtype": "Int",
+   "label": "2"
+  },
+  {
+   "fieldname": "one",
+   "fieldtype": "Int",
+   "label": "1"
+  },
+  {
+   "fieldname": "marg_opening",
+   "fieldtype": "Int",
+   "label": "Marg Opening"
+  },
+  {
+   "fieldname": "short_or_excess",
+   "fieldtype": "Int",
+   "label": "Short or Excess",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-13 18:19:55.960929",
+ "modified_by": "Administrator",
+ "module": "Nck Dashboard",
+ "name": "Opening",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
